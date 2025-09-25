@@ -4,6 +4,7 @@ import { Product } from "@/lib/interfaces/products";
 import { useState, FormEvent } from "react";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { categoryArray } from "@/lib/interfaces/categorys";
 
 interface UpdateProductFormProps {
   productId: string;
@@ -101,7 +102,7 @@ export default function UpdateProductForm({
             type="text"
             name="brand"
             id="brand"
-            defaultValue={initialProductData.brand}
+            defaultValue={initialProductData.brand ?? 'No brand'}
             className="w-full border p-2 rounded"
             required
           />
@@ -140,14 +141,20 @@ export default function UpdateProductForm({
           <label htmlFor="category" className="block font-medium">
             Category
           </label>
-          <input
-            type="text"
+          <select
             name="category"
             id="category"
+            aria-label="Create product - Category"
             defaultValue={initialProductData.category}
-            className="w-full border p-2 rounded"
+            className="w-full border p-2 rounded bg-blue-100"
             required
-          />
+          >
+            {categoryArray.map((category) => (
+              <option key={category} value={category}>
+                {category}
+              </option>
+            ))}
+          </select>
         </div>
 
         <div>
