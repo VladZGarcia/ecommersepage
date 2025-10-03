@@ -30,7 +30,7 @@ Detta är en gruppövning där målet var att bygga en **minimalistisk e-handels
 Syftet är att träna på:
 
 - Arbete i grupp (Agilt)
-- Arbete i proejkt (GitHub)
+- Arbete i projekt (GitHub)
 - Next.js/React kod
 
 ---
@@ -77,7 +77,7 @@ npm run dev
 ## 🚀 Användning
 
 - Navigering -> navigeringsfält med sökfunktion
-- Startsida -> hero med CTA som går till alla produkter + utvalda produkter + om oss + kontact
+- Startsida -> hero med CTA som går till alla produkter + utvalda produkter + om oss + kontakt
 - Produkt -> alla produkter + sökfält + kategorifiltrering
 - Produktdetalj -> produktbeskrivning + omdömen + recension + lagerstatus + fraktinformation + val av antal + liknande produkter
 - Om oss -> statisk sida med text
@@ -103,7 +103,7 @@ npm run dev
 |   |-- contact/page.tsx         # Kontaktsida
 |   |-- pages/products/
 |   |   |--page.tsx              # Produktsida
-|   |   |--[id]/page.tsx         # Prodktdetaljsida
+|   |   |--[id]/page.tsx         # Produktdetaljsida
 |-- components/                  # Återanvändbara komponenter
 |-- components/breadcrumb/       # Breadcrumbkomponenter
 |-- components/categories/       # Kategorikomponenter
@@ -246,3 +246,4 @@ Jag ser potential att vidareutveckla:
 - Mer avancerad filtrering och sortering av produkter
 - Caching och optimering av API-anrop
 - Fler UI-förbättringar för produktpresentation och interaktion
+- Förbättrad felhantering och användarfeedback
