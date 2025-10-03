@@ -20,6 +20,7 @@ Syftet med projektet är att lära oss olika tekniker inom Next.js/React.
 - [Lärdomar](#-lärdomar)
 - [Licens](#-licens)
 - [Kontakt](#-kontakt)
+- [Individuell Reflektion](#individuell-reflektion)
 
 ---
 
