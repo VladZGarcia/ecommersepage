@@ -1,3 +1,5 @@
+[🇬🇧 English README](./README.en.md)
+
 # 🛍️ E-handelsplattform i Next.js
 
 En minimalistisk e-handelsplattform byggd med **Next.js 15 App Router** och **TypeScript**.
